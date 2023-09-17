@@ -1,0 +1,52 @@
+author			= "Tiber Brutus";
+onLoadName		= "Operation Buzzard";
+onLoadMission	= "The 12th Republican Air Assault Unit is deployed to northern Arubistan";
+loadScreen		= "picture.jpg";
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "Operation Success";
+		subtitle = "";
+		description = "With the Arubistan counter offensive falling apart the Union’s forces have gained the initiative. They now continue the offensive deeper into the Arubistan mountains, on the hunt for the surviving partisans it is hoped that a final confrontation will bring the war to an end.";
+		pictureBackground = "picture.jpg";
+	};
+    class End2
+	{
+		title = "Operation Failed";
+		subtitle = "";
+		description = "";
+		pictureBackground = "";
+	};
+};
+
+class CfgSounds
+
+{
+
+ tracks[]={};
+
+ class Track01
+ {
+
+  name = "Track01";
+
+  sound[] = {"\brief1.wav", 250, 1.0};
+
+  titles[] = {};
+
+ };
+
+ class Track02
+ {
+
+  name = "Track02";
+
+  sound[] = {"\brief2.wav", 250, 1.0};
+
+  titles[] = {};
+
+ };
+
+};
